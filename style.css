@@ -1,0 +1,35 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    align-items: center;
+}
+
+.img-ask{
+    width: 18em;
+    margin-bottom: 4em;
+}
+
+.buttons {
+    position: relative;
+    text-align: center;
+}
+
+button {
+    background-color: red; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(249, 121, 121);
+}
+
+
+
+
